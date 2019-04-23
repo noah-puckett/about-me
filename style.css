@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+body {
+    background-color: #f0e9e9;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
+}
+
+ h2 {
+    font-family: 'Shadows Into Light', cursive;
+ }
+
+ ul, ol {
+     background-color: #c19191;
+     font-family: 'Amatic SC', cursive;
+     font-size: 2em;
+ }
+ 
+ p {
+     background-color: #c19191;
+     font-family: 'Amatic SC', cursive;
+     font-size: 2em;
+ }
