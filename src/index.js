@@ -1,4 +1,4 @@
-import scoreQuiz from 'jsfunction.js';
+import scoreQuiz from './jsfunction.js';
 
 const cuddle = document.getElementById('cuddle');
 const say = document.getElementById('say');
@@ -19,13 +19,8 @@ submitButton.addEventListener('click', (event) => {
     const hissValue = hiss.value;
     const hydrateValue = hydrate.value;
 
-    console.log(cuddleValue, 'cuddle');
-    console.log(sayValue, 'sayvalue');
-    console.log(do1Value, 'dovalue');
-    console.log(hissValue, 'hissvalue');
-    console.log(hydrateValue, 'hydratevalue');
+    const score = scoreQuiz(cuddleValue, sayValue, do1Value, hissValue, hydrateValue);
 
+    const message = 'you haev ' + score + '/5 knowledges!';
+    htmlParagraph.textContent = message;
 });
-
-scoreQuiz();
-
