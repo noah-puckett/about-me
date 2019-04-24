@@ -15,7 +15,7 @@ function scoreQuiz(cuddleValue, sayValue, do1Value, hissValue, hydrateValue) {
         score ++;
     }
 
-    if(sayValue === 'I love you'){
+    if(sayValue === 'i love you'){
         score ++;
     }
 
@@ -46,6 +46,26 @@ test('ohgod TDD FAIL', function(assert) {
     const hissAnswer = 'failing';
     const hydrateAnswer = 'failing';
     const expected = 0;
+
+
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const result = scoreQuiz(cuddleAnswer, sayAnswer, do1Answer, hissAnswer, hydrateAnswer);
+
+    //Assert
+    assert.equal(result, expected);
+});
+
+test('TDD success test', function(assert) {
+    //Arrange
+
+    // Set up your parameters and expectations
+    const cuddleAnswer = 'always';
+    const sayAnswer = 'I love you';
+    const do1Answer = 'kindness';
+    const hissAnswer = 'forever';
+    const hydrateAnswer = 'diedrate';
+    const expected = 5;
 
 
     //Act 
