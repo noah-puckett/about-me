@@ -1,3 +1,5 @@
+import scoreQuiz from 'jsfunction.js';
+
 const cuddle = document.getElementById('cuddle');
 const say = document.getElementById('say');
 const do1 = document.getElementById('do1');
@@ -25,5 +27,5 @@ submitButton.addEventListener('click', (event) => {
 
 });
 
-
+scoreQuiz();
 
