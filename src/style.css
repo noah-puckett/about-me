@@ -26,3 +26,23 @@ h1 {
      font-family: 'Amatic SC', cursive;
      font-size: 2em;
  }
+
+ label {
+     display: block;
+     font-family: 'Shadows Into Light', cursive;
+     font-size: 1.8em;
+ }
+
+ input {
+     margin-top: 10px;
+     height: 20px;
+     width: 100px;
+ }
+
+ button {
+     display: block;
+     height: 50px;
+     width: 200px; 
+     margin-top: 30px;
+     font-size: 2em;
+ }
